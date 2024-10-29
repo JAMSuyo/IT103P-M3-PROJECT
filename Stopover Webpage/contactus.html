@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - StopOver sa Bakulod Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=fork_spoon" /> 
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header>
+      <a href="index.html" class="logo"><i class="material-symbols-outlined">fork_spoon</i>StopOver sa Bakulod</a>
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="specialty.html">Specialties</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="reservation.html">Reservations</a>
+      </nav>
+    </header>
+
+    <section class="contact">
+        <div class="containerr">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder= "Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" id="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>0948 517 7609</p>
+                    <p><i class="fas fa-envelope"></i>stopoverbakulod@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Lavigan, Governor Generoso, Davao Region, Philippines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="outer" style="display: none;">
+      <div class="popup">
+          <p><i class="fas fa-local-dining"></i></p>
+          <br>
+          <br>
+          <br>
+          <h2>Your message has been received.</h2>
+          <h2>Thank you for your feedback!</h2>
+          <br>
+          <br>
+          <button id="closebtn">Close</button>
+      </div>
+  </div>
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="share">
+        <a href="https://www.facebook.com/profile.php?id=100064205614670" class="btn">Facebook</a>
+        <a href="#" class="btn">Twitter</a>
+        <a href="#" class="btn">Instagram</a>
+      </div>
+
+      <h1 class="credit">
+        Created by <span>Project StopOver </span> | All rights reserved.
+      </h1>
+    </section>
+    <!-- footer section ends -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
